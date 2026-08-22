@@ -1,0 +1,15 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /search/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /my-account/
+Disallow: /*?utm_
+Disallow: /*?_escaped_fragment_=
+Disallow: /feed/
+Disallow: /xmlrpc.php
+
+Clean-param: utm_source utm_medium utm_campaign utm_term utm_content /
+
+Sitemap: https://eivl.ru/sitemap.xml
